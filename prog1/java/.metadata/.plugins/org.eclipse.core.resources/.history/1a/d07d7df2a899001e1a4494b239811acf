@@ -1,0 +1,25 @@
+package ejercicios;
+
+import java.util.Scanner;
+
+public class PruebasStrings {
+	
+	public static void main(String[] args) {
+		//Prueba1
+		String prueba1 = "Miguel";
+		if("miguel" == prueba1) 
+			System.out.println("Prueba 1 Son los mismos");
+		else
+			System.out.println("Prueba 1 No son los mismos");
+		//Prueba2
+		Scanner leer = new Scanner(System.in);
+		String nombre2 ="";
+		nombre2=leer.next();
+		
+		if(nombre2 == "Miguel")
+			System.out.println("Prueba 2 = Son iguales");
+		else
+			System.out.println("Prueba 2 = No son iguales");
+		
+	}
+}
