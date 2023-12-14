@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Move element &apos;PrimerAlgortimo.java&apos; to &apos;A01_Java_Basico/src/ejecutables&apos;&#x0A;- Original project: &apos;A01_Java_Basico&apos;&#x0A;- Destination element: &apos;A01_Java_Basico/src/ejecutables&apos;&#x0A;- Original element: &apos;PrimerAlgortimo.java&apos;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="/src&lt;ejecutables" element1="/src&lt;{PrimerAlgortimo.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1701341951776" units="1" version="1.0"/>
-</session>
