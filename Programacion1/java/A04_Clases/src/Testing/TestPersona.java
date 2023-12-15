@@ -6,16 +6,20 @@ public class TestPersona {
 
 	//Aqui incluimos el main ya que pretendemos ejecutar
 	public static void main(String[] args) {
-		Persona yo = new Persona();
+		//Creamos un nuevo objeto de la clase persona
+		Persona yo = new Persona(
+				1,
+				"Miguel",
+				"Ortega",
+				12000,
+				12000,
+				'H'
+				);
 		
 		/* Si pongo yo. se vera que hay muchos métodos
 		 * estos los hereda de la clase object, este tipo
 		 * de herencia -> Herencia implícita
 		 * Se hereda todos los métodos y atributos
-		 */
-		
-		/*Si el atributo fuese public podriamos accer asi:
-		 * yo.nombre = "Miguel";
 		 */
 		
 		/*
@@ -24,9 +28,13 @@ public class TestPersona {
 		 * La encapsulación. Donde una clase proporciona acceso a sus métodos pero 
 		 * no a sus atributos directamente
 		 */
+		System.out.println(yo.toString());
+		System.out.println(yo);
+		System.out.println(yo.getNombre());
+		System.out.println("Nombre completo " + yo.nombreCompleto());
+		System.out.println("Mi salario bruto mensual a 12 pagas es de: " + yo.salarioBrutoMensual(12));
 		
-		yo.setNombre("Miguel");
-		System.out.println(yo.literalGenero());
+		
 		
 	}
 }
