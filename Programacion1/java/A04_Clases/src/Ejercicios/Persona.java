@@ -17,6 +17,7 @@ public class Persona {
 	 * Para generar el constructor 
 	 * click derecho -> source generate constructor e incluir todos los atributos
 	 */
+	
 	public Persona(
 			int idPersona, 
 			String nombre, 
@@ -26,10 +27,12 @@ public class Persona {
 			char genero
 			) {
 	super();
+	
 	/*
 	 * Super representa a mi padre en herencia
 	 * Funcionaría si lo quitamos pero conviene dejarlo
 	 */
+	
 	this.idPersona = idPersona;
 	this.nombre = nombre;
 	this.apellidos = apellidos;
@@ -92,7 +95,7 @@ public class Persona {
 		return salarioBruto() /meses;
 	}
 	
-	//Si hay un método con el mismo nombre que en el padre sobreescribe el método = Override
+	//Si hay un método con el mismo nombre que en el padre se sobreescribe el método = Override
 	@Override
 	public String toString() {
 		return "Persona [idPersona=" + idPersona + ", nombre=" + nombre + ", apellidos=" + apellidos + ", salario="

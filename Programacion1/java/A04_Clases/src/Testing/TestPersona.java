@@ -29,7 +29,6 @@ public class TestPersona {
 		 * no a sus atributos directamente
 		 */
 		System.out.println(yo.toString());
-		System.out.println(yo);
 		System.out.println(yo.getNombre());
 		System.out.println("Nombre completo " + yo.nombreCompleto());
 		System.out.println("Mi salario bruto mensual a 12 pagas es de: " + yo.salarioBrutoMensual(12));
