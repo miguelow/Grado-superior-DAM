@@ -26,7 +26,7 @@ public class Ejercicio1 {
         		+ "Para finalizar, introduzca un número negativo. \r"
         		+ "Valor máximo permitido: 2,147,483,647");
 
-        System.out.print("Introduczca un número: ");
+        System.out.print("Introduzca un número: ");
         numero = scanner.nextInt();
 
         while (numero >= 0) {
